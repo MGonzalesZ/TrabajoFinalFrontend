@@ -11,6 +11,7 @@ import {
   Validators,
 } from '@angular/forms';
 import { RestApiService } from '../../../services/rest-api.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nuevo-usuario',
@@ -27,7 +28,7 @@ import { RestApiService } from '../../../services/rest-api.service';
 })
 export class NuevoUsuarioComponent {
   // HACER UN POST
-  constructor(private servicio_rest: RestApiService) {}
+  constructor(private servicio_rest: RestApiService, private router: Router) {}
 
   formNuevoEst = new FormGroup({
     nombre: new FormControl('', Validators.required),
@@ -49,7 +50,8 @@ export class NuevoUsuarioComponent {
         carrera: this.formNuevoEst.value.carrera,
       })
       .subscribe((datos) => {
-        console.log('El estudiante se registro con exito');
+        alert('El estudiante se registro con exito');
+        this.router.navigate(['/dashboard']);
         console.log(datos);
       });
   }

@@ -69,6 +69,13 @@
       "apellido": "Gonzales",
       "edad": "22",
       "carrera": "Ing. de Telecomunicaciones"
+    },
+    {
+      "id": "4da9",
+      "nombre": "Donald",
+      "apellido": "Trump",
+      "edad": "56",
+      "carrera": "Economía"
     }
   ]
 }
