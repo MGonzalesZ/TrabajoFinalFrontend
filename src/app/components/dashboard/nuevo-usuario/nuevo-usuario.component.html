@@ -1,21 +1,21 @@
 <app-navbar></app-navbar>
 <section>
-  <form>
+  <form [formGroup]="formNuevoEst" (ngSubmit)="validarYGuardarEst()">
     <mat-form-field>
       <mat-label>Nombre</mat-label>
-      <input matInput />
+      <input matInput formControlName="nombre" />
     </mat-form-field>
     <mat-form-field>
       <mat-label>Apellido</mat-label>
-      <input matInput />
+      <input matInput formControlName="apellido" />
     </mat-form-field>
     <mat-form-field>
       <mat-label>Edad</mat-label>
-      <input matInput />
+      <input matInput formControlName="edad" />
     </mat-form-field>
     <mat-form-field>
       <mat-label>Carrera</mat-label>
-      <input matInput />
+      <input matInput formControlName="carrera" />
     </mat-form-field>
 
     <button mat-raised-button color="primary">Guardar</button>

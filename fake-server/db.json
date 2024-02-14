@@ -1,0 +1,74 @@
+{
+  "estudiantes": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "apellido": "Lopez",
+      "edad": 18,
+      "carrera": "Ing. de Sistemas"
+    },
+    {
+      "id": "2",
+      "nombre": "Milton",
+      "apellido": "Rodriguez",
+      "edad": 19,
+      "carrera": "Ing. Electrónica"
+    },
+    {
+      "id": "3",
+      "nombre": "Ana",
+      "apellido": "Salazar",
+      "edad": 20,
+      "carrera": "Ing. de Sistemas"
+    },
+    {
+      "id": "4",
+      "nombre": "Rene",
+      "apellido": "Salinas",
+      "edad": 19,
+      "carrera": "Ing. de Sistemas"
+    },
+    {
+      "id": "5",
+      "nombre": "Milenka",
+      "apellido": "Chuquimia",
+      "edad": 19,
+      "carrera": "Ing. de Telecomunicaciones"
+    },
+    {
+      "id": "6",
+      "nombre": "Melania",
+      "apellido": "Condori",
+      "edad": 18,
+      "carrera": "Ing. de Sistemas"
+    },
+    {
+      "id": "7",
+      "nombre": "Pedro",
+      "apellido": "Gonzales",
+      "edad": 17,
+      "carrera": "Ing. Biomédica"
+    },
+    {
+      "id": "8",
+      "nombre": "Anahi",
+      "apellido": "Mendoza",
+      "edad": 22,
+      "carrera": "Ing. de Sistemas"
+    },
+    {
+      "id": "0f09",
+      "nombre": "Alejandra",
+      "apellido": "Gutierrez",
+      "edad": "25",
+      "carrera": "Administración de Empresas"
+    },
+    {
+      "id": "a833",
+      "nombre": "Sergio",
+      "apellido": "Gonzales",
+      "edad": "22",
+      "carrera": "Ing. de Telecomunicaciones"
+    }
+  ]
+}
